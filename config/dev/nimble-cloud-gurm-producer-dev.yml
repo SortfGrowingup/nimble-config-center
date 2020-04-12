@@ -47,4 +47,16 @@ management:
         
 swagger:
   enabled: true
+  host: localhost
   basePackage: com.nimblecloud.gurm.controller
+  title: titleTEST
+  description: descriptionTEST
+  version: versionTEST
+  license: licenseTEST
+  licenseUrl: licenseUrlTEST
+  termsOfServiceUrl: localhost:303
+  contact: 
+    name: nameTEST
+    email: emailTEST
+  
+    
