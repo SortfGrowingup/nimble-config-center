@@ -47,3 +47,4 @@ management:
         
 swagger:
   enabled: true
+  basePackage: com.nimblecloud.gurm.controller
