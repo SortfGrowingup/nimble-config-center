@@ -44,3 +44,17 @@ management:
     web:
       exposure:
         include: bus-refresh,info
+        
+swagger:
+  contact:
+    name: SortfGrowingup
+    url: http://www.alonexplore.com/
+    email: 199784567@qq.com
+  enabled: true
+  title: 文章相关API
+  version: 1.0
+  description: 接口前面统一添加 '/article' 路径
+  base-path: /**
+  base-package: com.nimblecloud.article.controller
+  exclude-path: /error
+  host: localhost:303
