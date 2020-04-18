@@ -57,4 +57,4 @@ swagger:
   base-path: /**
   base-package: com.nimblecloud.article.controller
   exclude-path: /error
-  host: localhost:303
+  host: localhost:301
