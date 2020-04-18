@@ -30,6 +30,7 @@ spring:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
     show-sql: true
     database: mysql
+    database-platform: org.hibernate.dialect.MySQL5Dialect
     properties:
       dialect: com.nimblecloud.common.core.mysql.dialect.NimbleCloudMySQLInnoDBDialect
       show-sql: true
@@ -38,11 +39,7 @@ spring:
       cache:
         use_second_level_cache: false
         use_query_cache: false
-        
-hibernate:
-  dialect:
-    storage_engine: innodb
-    
+
 management:
   endpoints:
     web:
