@@ -31,13 +31,16 @@ spring:
     show-sql: true
     database: mysql
     properties:
-      dialect: com.nimblecloud.common.core.mysql.dialect.NimbleCloudMySQLInnoDBDialect
       show-sql: true
       format-sql: false
       current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
       cache:
         use_second_level_cache: false
         use_query_cache: false
+
+hibernate:
+  dialect:
+    storage_engine: innodb
 
 management:
   endpoints:
