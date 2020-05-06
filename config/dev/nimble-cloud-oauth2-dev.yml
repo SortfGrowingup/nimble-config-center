@@ -47,7 +47,7 @@ management:
       exposure:
         include: bus-refresh,info
         
-oauth2-service-url: http://localhost:9401
+oauth2-service-url: http://localhost:304
 security:
   oauth2:
     client:
