@@ -32,7 +32,6 @@ spring:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL57Dialect
     properties:
-      dialect: com.nimblecloud.common.core.mysql.dialect.NimbleCloudMySQLInnoDBDialect
       show-sql: true
       format-sql: false
       current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
