@@ -2,7 +2,7 @@ spring:
   main:
     banner-mode: off
   datasource:
-    url: jdbc:mysql://172.27.0.2:1124/dynamic_route?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://172.30.0.13:1124/rcxh?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: mysql
     driver-class-name: com.mysql.cj.jdbc.Driver
